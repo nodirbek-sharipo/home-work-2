@@ -1,0 +1,79 @@
+$bac-color: #F2994A;
+$drop-width: 235px;
+$drop-height: 640px;
+$drop-bac-color: #FFFF;
+$padding-size: 1rem;
+$text-normal-siz:  14.4px;
+$hedr-text-size: 15px;
+$input-color:#F5F5F5;
+$input-with: 192px;
+$input-height: 49px;
+$white: #FFFF;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.bacground{
+    width: 100%;
+    height: 100%;
+    background-color: $bac-color;
+    .dropdaun{
+        background-color: $drop-bac-color;
+        width: $drop-width;
+        height: $drop-height;
+        padding: $padding-size;
+        .drop-hedr{
+            display: flex;
+            .hedr-text{
+                margin-top: $hedr-text-size;
+                margin-left: $hedr-text-size;
+                h3{
+                    margin: 0;
+                }
+            }
+        }
+        .drop-body{
+            margin-top: 1rem;
+            input{
+                width: $input-with;
+                height: $input-height;
+                text-align: start;
+                border-radius: $text-normal-siz;
+                background-color: $input-color;
+                border: none;
+                font-style: 20px;
+            }
+            .dash{
+                margin-left: 1rem;
+                text-align: start;
+                border: none;
+                margin-top: 10px;
+                width: $input-with;
+                height: $input-height;
+                background-color: $white;
+            }
+        }
+        .drop-footer{
+            margin-left: 1rem;
+            margin-top: 100px;
+            .dark-light-mode{
+                text-align: start;
+                border: none;
+                margin-top: 10px;
+                width: $input-with;
+                height: $input-height;
+                background-color: $white;
+            }
+        }
+    }
+}
+
+// .dark {
+//     background-color: #222;
+//     color: #FFFF;
+// }

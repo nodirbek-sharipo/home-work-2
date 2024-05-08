@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bacground {
+  width: 100%;
+  height: 100%;
+  background-color: #F2994A;
+}
+.bacground .dropdaun {
+  background-color: white;
+  width: 235px;
+  height: 640px;
+  padding: 1rem;
+}
+.bacground .dropdaun .drop-hedr {
+  display: flex;
+}
+.bacground .dropdaun .drop-hedr .hedr-text {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.bacground .dropdaun .drop-hedr .hedr-text h3 {
+  margin: 0;
+}
+.bacground .dropdaun .drop-body {
+  margin-top: 1rem;
+}
+.bacground .dropdaun .drop-body input {
+  width: 192px;
+  height: 49px;
+  text-align: start;
+  border-radius: 14.4px;
+  background-color: #F5F5F5;
+  border: none;
+  font-style: 20px;
+}
+.bacground .dropdaun .drop-body .dash {
+  margin-left: 1rem;
+  text-align: start;
+  border: none;
+  margin-top: 10px;
+  width: 192px;
+  height: 49px;
+  background-color: white;
+}
+.bacground .dropdaun .drop-footer {
+  margin-left: 1rem;
+  margin-top: 100px;
+}
+.bacground .dropdaun .drop-footer .dash {
+  text-align: start;
+  border: none;
+  margin-top: 10px;
+  width: 192px;
+  height: 49px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
